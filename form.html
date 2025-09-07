@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <div class="entry-form"  id="Sign">
+        <form action="">
+          <p>Charity Foundation...</p>
+          <div class="logo">
+            <img src="file/logo.jpg" alt="logo">
+          </div>
+          <input type="Email" placeholder="Email" required>
+          <input type="password" placeholder="Password" id="password" required>
+          <button type="Submit">Sign In</button>
+        </form>
+        
+    </div>
+    <div class="entry-form active"  id="Register">
+      <form action="">
+        <p>Register</p>
+        <input type="text" placeholder="Full Name" required>
+        <input type="Email" placeholder="Email"required >
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" id="confirmPassword" required>
+        <select name="role" required>
+          <option value="">Choose Roles</option>
+          <option value="User">User</option>
+          <option value="Admin">Admin</option>
+        </select>
+        <button type="submit"><a href="#" onclick="showForm('Sign')">Register</a></button>
+        <span id="link">Already have an account? <a href="">Signin Now</a></span>
+      </form>
+  </div> 
+</div>
+</div>
+<script src="java.js"></script>
+</body>
+<footer></footer>
+</html>
